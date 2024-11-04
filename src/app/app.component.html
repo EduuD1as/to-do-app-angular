@@ -1,0 +1,7 @@
+<div style="text-align:center">
+  <h1>To do App - Angular</h1>
+</div>
+<div>
+  <app-task-input (taskAdded)="addTask($event)"></app-task-input>
+  <app-task-list [tasks]="tasks" (taskRemoved)="removeTask($event)"></app-task-list>
+</div>

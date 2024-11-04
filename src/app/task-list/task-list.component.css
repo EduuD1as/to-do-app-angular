@@ -1,0 +1,59 @@
+div {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(253, 224, 219);
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  #description {
+    margin-top: 4px;
+    color: rgb(64, 64, 64);
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
+  .completed {
+    background-color: #d4edda; /* Fundo verde claro */
+    border-color: #c3e6cb;
+  }
+  
+  .completed .confirmation {
+    color: green;
+    font-weight: bold;
+    margin: 0px 20px 0px 10px;  
+    font-size: 0.9em;
+    display: inline-block;
+  }
+  
+  .pending {
+    color: red;
+    font-weight: bold;
+    margin: 0px 20px 0px 10px;  
+    font-size: 0.9em;
+    display: inline-block;
+  }
+  
+  
+  
+  
+  
